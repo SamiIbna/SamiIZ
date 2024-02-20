@@ -1,0 +1,5 @@
+import random
+random_leng = random.randint(1, 100)
+random_list = [random.randint(-100, 100)
+     for _ in range(random_leng)]
+print(random_list)

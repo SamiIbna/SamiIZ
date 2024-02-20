@@ -1,0 +1,16 @@
+def addlists(mylist1, mylist2):
+    result = mylist1+mylist2
+    return result
+
+
+
+
+mylist1=[1,2,3]
+mylist2=['a','b','c']
+# result = addlists(mylist1, mylist2)
+result = []
+
+for mylist1, mylist2 in zip (mylist1, mylist2):
+    result.append(mylist1)
+    result.append(mylist2)
+print(result)
